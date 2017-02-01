@@ -226,7 +226,7 @@ CONFIG.LAYERED_METADATA {xilinx.com:interface:datatypes:1.0 {DATA {datatype {nam
   set DSPPico_instructions [ create_bd_cell -type ip -vlnv xilinx.com:ip:blk_mem_gen:8.3 DSPPico_instructions ]
   set_property -dict [ list \
 CONFIG.Byte_Size {9} \
-CONFIG.Coe_File {/home/graham/Dropbox/N3workingG/TE0722Rebuild/N3SysGen/DSPpico.coe} \
+CONFIG.Coe_File {../../../../../../../../N3SysGen/DSPpico.coe} \
 CONFIG.Enable_32bit_Address {false} \
 CONFIG.Enable_B {Use_ENB_Pin} \
 CONFIG.Load_Init_File {true} \
@@ -266,7 +266,7 @@ CONFIG.CONST_WIDTH {4} \
   set KPPico_instructions [ create_bd_cell -type ip -vlnv xilinx.com:ip:blk_mem_gen:8.3 KPPico_instructions ]
   set_property -dict [ list \
 CONFIG.Byte_Size {9} \
-CONFIG.Coe_File {/home/graham/Dropbox/N3workingG/TE0722Rebuild/N3SysGen/KeyPadPico.coe} \
+CONFIG.Coe_File {../../../../../../../../N3SysGen/KeyPadPico.coe} \
 CONFIG.Enable_32bit_Address {false} \
 CONFIG.Enable_B {Use_ENB_Pin} \
 CONFIG.Load_Init_File {true} \
@@ -310,7 +310,7 @@ CONFIG.DOUT_WIDTH {8} \
   set TDPico_instructions [ create_bd_cell -type ip -vlnv xilinx.com:ip:blk_mem_gen:8.3 TDPico_instructions ]
   set_property -dict [ list \
 CONFIG.Byte_Size {9} \
-CONFIG.Coe_File {/home/graham/Dropbox/N3workingG/TE0722Rebuild/N3SysGen/ToneDetectpico.coe} \
+CONFIG.Coe_File {../../../../../../../../N3SysGen/ToneDetectpico.coe} \
 CONFIG.Enable_32bit_Address {false} \
 CONFIG.Enable_B {Use_ENB_Pin} \
 CONFIG.Load_Init_File {true} \
@@ -336,7 +336,7 @@ CONFIG.use_bram_block {Stand_Alone} \
   set UserPico_instructions [ create_bd_cell -type ip -vlnv xilinx.com:ip:blk_mem_gen:8.3 UserPico_instructions ]
   set_property -dict [ list \
 CONFIG.Byte_Size {9} \
-CONFIG.Coe_File {/home/graham/Dropbox/N3workingG/TE0722Rebuild/N3SysGen/UserPico.coe} \
+CONFIG.Coe_File {../../../../../../../../N3SysGen/UserPico.coe} \
 CONFIG.Enable_32bit_Address {false} \
 CONFIG.Enable_B {Use_ENB_Pin} \
 CONFIG.Load_Init_File {true} \
