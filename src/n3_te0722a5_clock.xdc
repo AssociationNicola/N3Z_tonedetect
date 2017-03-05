@@ -20,8 +20,8 @@ set_property PACKAGE_PIN R11 [get_ports {touchselect[0]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {touchselect[0]}]
 set_property PACKAGE_PIN M9 [get_ports {touchon[0]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {touchon[0]}]
-set_property PACKAGE_PIN E12 [get_ports {match_z[0]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {match_z[0]}]
+set_property PACKAGE_PIN E12 [get_ports {BT_RTS[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {BT_RTS[0]}]
 
 set_property PACKAGE_PIN R15 [get_ports {psuclk[0]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {psuclk[0]}]
@@ -153,4 +153,8 @@ connect_debug_port u_ila_0/probe4 [get_nets [list PS_PL_i/strobetones]]
 
 connect_debug_port u_ila_0/probe1 [get_nets [list {PS_PL_i/td_portid[0]} {PS_PL_i/td_portid[1]} {PS_PL_i/td_portid[2]} {PS_PL_i/td_portid[3]} {PS_PL_i/td_portid[4]} {PS_PL_i/td_portid[5]} {PS_PL_i/td_portid[6]} {PS_PL_i/td_portid[7]}]]
 connect_debug_port u_ila_0/probe3 [get_nets [list PS_PL_i/strobe]]
+
+
+
+
 
